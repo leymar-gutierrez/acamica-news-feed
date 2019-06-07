@@ -4,7 +4,6 @@ import NavApp from '../Nav'
 import Home from '../Pages/Home'
 import Category from '../Pages/Category'
 import Search from '../Pages/Search'
-import Filters from '../Filters'
 
 
 class App extends React.Component {
@@ -13,7 +12,6 @@ class App extends React.Component {
     return(
       <Router>
           <NavApp />
-          <Filters />
           <Switch>
               <Route path="/" exact component={Home}></Route>
               <Route path="/categoria/:category" exact component={Category}></Route>

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Navbar, NavbarStart, NavbarItem } from 'bloomer'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import Filters from '../Filters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Nav = styled(Navbar)`
     border: solid 1px #00D1B2;
@@ -36,6 +38,7 @@ const NavApp = () => {
                             <NavbarItem>{category.text}</NavbarItem>
                         </LinkSpace>
                     ))}
+                    <Filters/>
                 </NavbarStart>
             </Nav>
 
