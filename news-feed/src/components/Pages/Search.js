@@ -23,6 +23,7 @@ class Search extends Component {
     componentDidMount(){
         this.fetchFilterItem()
     }
+    
     async fetchFilterItem() {
         const { query } = this.props.match.params
         console.log(query)
