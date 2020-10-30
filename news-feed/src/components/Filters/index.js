@@ -34,7 +34,7 @@ class Filters extends Component {
         return (
      <>
         <button onClick={this.handleOpen} style={{ marginTop:'5px' }} className="button is-warning">Busqueda</button>
-        <Modal isActive={isActive === true ? true: false} >
+        <Modal isActive={isActive === true ? true : false} >
             <ModalBackground  />
                 <ModalContent>
                 <Field>

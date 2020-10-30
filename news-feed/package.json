@@ -3,19 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "bloomer": "^0.6.5",
     "bulma": "^0.7.5",
-    "dayjs": "^1.8.14",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "dayjs": "^1.9.4",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-loader-spinner": "^2.3.0",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.2.1"
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
